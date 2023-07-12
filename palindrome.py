@@ -32,7 +32,7 @@ class Solution:
             #return type: boolean
             
             #TODO: Write code below to return a boolean value with the solution to the prompt.ff
-            if s == s[::-1]:
+            if s == s[::-1] and len(s) > 6:
                 return True
             return False
 
